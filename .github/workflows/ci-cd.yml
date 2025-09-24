@@ -49,7 +49,7 @@ jobs:
           cd gitops
 
                     
-          
+          cat deployment.yaml
           
           # Update image in deployment.yaml
           if [[ "$OSTYPE" == "darwin"* ]]; then
