@@ -55,4 +55,4 @@ jobs:
           git commit -m "Update image to ${{ github.sha }}"
           
           # Push
-          git push -f https://${GIT_TOKEN}@github.com/fy2sysnotify/kubernetes-cicd-application.git master
+          git push -f https://${GIT_TOKEN}@github.com/fy2sysnotify/kubernetes-cicd-application.git main
